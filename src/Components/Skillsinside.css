@@ -1,0 +1,54 @@
+.Skills { /* Capitalized the class name to match your React component */
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #080808; 
+    background-size: 100%; /* Changed from 'background' to 'background-size' */
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-bottom: 40px;
+  }
+  
+  .Skills h2 { /* Capitalized the class name */
+    font-size: 2rem;
+    text-align: left;
+    margin-top: 100px;
+    padding: 20px;
+    margin-left: 45%;
+    color: #ffffff;
+  }
+  
+  .skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .skill {
+    background: #3230307b;
+    padding: 20px;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+    transition: transform 0.3s;
+    cursor: pointer;
+  }
+  
+  .skill:hover {
+    transform: translateY(-10px);
+    background: #111010f1;
+  }
+  
+  .skill i {
+    font-size: 50px;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .skill h3 {
+    font-size: 1.5em;
+    margin-top: 10px;
+    color: #ededed;
+  }
+  
