@@ -1,6 +1,6 @@
 import './Footer.css';
 import React from 'react';
-import { FaHome, FaPhone, FaMailBulk, FaInstagram, FaLinkedin, FaFacebook } from 'react-icons/fa';
+import { FaHome, FaPhone, FaMailBulk, FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
 
 function Footer() { 
   return (
@@ -24,12 +24,19 @@ function Footer() {
           </div>
         </div>
         <div className="right-container">
-              <h4>Follow Me</h4>
-                <div className="social-icons">
-                  <FaInstagram className='insta' size={20} style={{color: '#fff'}} />
-                  <FaLinkedin className='linkedin' size={20} style={{color: '#fff'}} />
-                   <FaFacebook className='facebook' size={20} style={{color: '#fff'}} />
-                </div>
+        <h4>Follow Me</h4>
+<div className="social-icons">
+  <a href="https://instagram.com/_ahmed_ahmoo" target="_blank" rel="noopener noreferrer">
+    <FaInstagram className='insta' size={20} style={{color: '#fff'}} />
+  </a>
+  <a href="https://www.linkedin.com/in/ahmedsabir2417" target="_blank" rel="noopener noreferrer">
+    <FaLinkedin className='linkedin' size={20} style={{color: '#fff'}} />
+  </a>
+  <a href="https://github.com/ahmedSabir07" target="_blank" rel="noopener noreferrer">
+    <FaGithub className='facebook' size={20} style={{color: '#fff'}} />
+  </a>
+</div>
+
                 <div class="footer-section">
                  <p>&copy; 2024 Your Website. All rights reserved.</p>
                  </div>
